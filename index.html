@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <header>
+            <img src="icon.png">
+        </header>
+        <div class="container">
+            <p id="today-el">Date</p>
+            <label for="link-el">Link</label>
+            <input type="text" name="" id="link-el">
+            <label for="com-el">Company</label>
+            <input type="text" name="" id="com-el">
+            <label for="pos-el">Position</label>
+            <input type="text" name="" id="pos-el">
+            <label for="status-el">Status</label>
+            <select name="status-el" id="status-el">
+                <option value="interested">Interested</option>
+                <option value="applied">Applied</option>
+            </select>
+
+            <div class="container-buttons" id="container-buttons">
+                <button id="save-job-btn">SAVE JOB <span id="counter-el">(0)</span></button>
+                <button id="tab-btn">SAVE TAB</button>
+                <button id="download-btn">DOWNLOAD (.csv)</button>
+                <button id="delete-btn">DELETE ALL</button>
+            </div>
+            <ul id="ul-el">
+            </ul>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
